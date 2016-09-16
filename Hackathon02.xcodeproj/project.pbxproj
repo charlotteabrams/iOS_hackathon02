@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E2ED6471D8C80B8008EDF8A /* MapViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED6461D8C80B8008EDF8A /* MapViewControllerDelegate.swift */; };
+		8E2ED64A1D8CA19E008EDF8A /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED6481D8CA19E008EDF8A /* Location+CoreDataProperties.swift */; };
+		8E2ED64B1D8CA19E008EDF8A /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED6491D8CA19E008EDF8A /* Note+CoreDataProperties.swift */; };
+		8E2ED64D1D8CA321008EDF8A /* ShowLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED64C1D8CA321008EDF8A /* ShowLocationController.swift */; };
+		8E2ED6511D8CA4F1008EDF8A /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED6501D8CA4F1008EDF8A /* CancelButtonDelegate.swift */; };
+		8E2ED6531D8CA6E0008EDF8A /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED6521D8CA6E0008EDF8A /* AddNoteViewController.swift */; };
+		8E2ED6551D8CA75B008EDF8A /* AddNoteViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED6541D8CA75B008EDF8A /* AddNoteViewControllerDelegate.swift */; };
+		8E2ED6571D8CB85D008EDF8A /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED6561D8CB85D008EDF8A /* LocationCell.swift */; };
 		9234ABF21D8C5AEE007482E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234ABF11D8C5AEE007482E4 /* AppDelegate.swift */; };
-		9234ABF41D8C5AEE007482E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234ABF31D8C5AEE007482E4 /* ViewController.swift */; };
+		9234ABF41D8C5AEE007482E4 /* ListOfPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234ABF31D8C5AEE007482E4 /* ListOfPlacesViewController.swift */; };
 		9234ABF71D8C5AEE007482E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9234ABF51D8C5AEE007482E4 /* Main.storyboard */; };
 		9234ABFA1D8C5AEE007482E4 /* Hackathon02.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9234ABF81D8C5AEE007482E4 /* Hackathon02.xcdatamodeld */; };
 		9234ABFC1D8C5AEE007482E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9234ABFB1D8C5AEE007482E4 /* Assets.xcassets */; };
 		9234ABFF1D8C5AEE007482E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9234ABFD1D8C5AEE007482E4 /* LaunchScreen.storyboard */; };
 		9234AC0A1D8C5AEE007482E4 /* Hackathon02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234AC091D8C5AEE007482E4 /* Hackathon02Tests.swift */; };
 		9234AC151D8C5AEE007482E4 /* Hackathon02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234AC141D8C5AEE007482E4 /* Hackathon02UITests.swift */; };
+		9234AC231D8C5C68007482E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234AC221D8C5C68007482E4 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E2ED6461D8C80B8008EDF8A /* MapViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerDelegate.swift; sourceTree = "<group>"; };
+		8E2ED6481D8CA19E008EDF8A /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E2ED6491D8CA19E008EDF8A /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E2ED64C1D8CA321008EDF8A /* ShowLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowLocationController.swift; sourceTree = "<group>"; };
+		8E2ED6501D8CA4F1008EDF8A /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		8E2ED6521D8CA6E0008EDF8A /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		8E2ED6541D8CA75B008EDF8A /* AddNoteViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewControllerDelegate.swift; sourceTree = "<group>"; };
+		8E2ED6561D8CB85D008EDF8A /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		9234ABEE1D8C5AEE007482E4 /* Hackathon02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9234ABF11D8C5AEE007482E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9234ABF31D8C5AEE007482E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9234ABF31D8C5AEE007482E4 /* ListOfPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPlacesViewController.swift; sourceTree = "<group>"; };
 		9234ABF61D8C5AEE007482E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9234ABF91D8C5AEE007482E4 /* Hackathon02.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hackathon02.xcdatamodel; sourceTree = "<group>"; };
 		9234ABFB1D8C5AEE007482E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +66,7 @@
 		9234AC101D8C5AEE007482E4 /* Hackathon02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackathon02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9234AC141D8C5AEE007482E4 /* Hackathon02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon02UITests.swift; sourceTree = "<group>"; };
 		9234AC161D8C5AEE007482E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9234AC221D8C5C68007482E4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,8 @@
 		9234ABE51D8C5AEE007482E4 = {
 			isa = PBXGroup;
 			children = (
+				8E2ED6481D8CA19E008EDF8A /* Location+CoreDataProperties.swift */,
+				8E2ED6491D8CA19E008EDF8A /* Note+CoreDataProperties.swift */,
 				9234ABF01D8C5AEE007482E4 /* Hackathon02 */,
 				9234AC081D8C5AEE007482E4 /* Hackathon02Tests */,
 				9234AC131D8C5AEE007482E4 /* Hackathon02UITests */,
@@ -100,8 +120,15 @@
 			isa = PBXGroup;
 			children = (
 				9234ABF11D8C5AEE007482E4 /* AppDelegate.swift */,
-				9234ABF31D8C5AEE007482E4 /* ViewController.swift */,
+				9234ABF31D8C5AEE007482E4 /* ListOfPlacesViewController.swift */,
+				8E2ED6501D8CA4F1008EDF8A /* CancelButtonDelegate.swift */,
+				8E2ED64C1D8CA321008EDF8A /* ShowLocationController.swift */,
+				8E2ED6521D8CA6E0008EDF8A /* AddNoteViewController.swift */,
+				8E2ED6541D8CA75B008EDF8A /* AddNoteViewControllerDelegate.swift */,
+				9234AC221D8C5C68007482E4 /* MapViewController.swift */,
 				9234ABF51D8C5AEE007482E4 /* Main.storyboard */,
+				8E2ED6561D8CB85D008EDF8A /* LocationCell.swift */,
+				8E2ED6461D8C80B8008EDF8A /* MapViewControllerDelegate.swift */,
 				9234ABFB1D8C5AEE007482E4 /* Assets.xcassets */,
 				9234ABFD1D8C5AEE007482E4 /* LaunchScreen.storyboard */,
 				9234AC001D8C5AEE007482E4 /* Info.plist */,
@@ -196,6 +223,7 @@
 				TargetAttributes = {
 					9234ABED1D8C5AEE007482E4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EL9YZC6M48;
 					};
 					9234AC041D8C5AEE007482E4 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -259,9 +287,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9234ABF41D8C5AEE007482E4 /* ViewController.swift in Sources */,
+				8E2ED6531D8CA6E0008EDF8A /* AddNoteViewController.swift in Sources */,
+				9234ABF41D8C5AEE007482E4 /* ListOfPlacesViewController.swift in Sources */,
+				8E2ED6551D8CA75B008EDF8A /* AddNoteViewControllerDelegate.swift in Sources */,
+				8E2ED64B1D8CA19E008EDF8A /* Note+CoreDataProperties.swift in Sources */,
+				8E2ED6471D8C80B8008EDF8A /* MapViewControllerDelegate.swift in Sources */,
+				8E2ED6511D8CA4F1008EDF8A /* CancelButtonDelegate.swift in Sources */,
+				8E2ED6571D8CB85D008EDF8A /* LocationCell.swift in Sources */,
+				8E2ED64A1D8CA19E008EDF8A /* Location+CoreDataProperties.swift in Sources */,
 				9234ABF21D8C5AEE007482E4 /* AppDelegate.swift in Sources */,
+				8E2ED64D1D8CA321008EDF8A /* ShowLocationController.swift in Sources */,
 				9234ABFA1D8C5AEE007482E4 /* Hackathon02.xcdatamodeld in Sources */,
+				9234AC231D8C5C68007482E4 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hackathon02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evcallia.Hackathon02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +454,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hackathon02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evcallia.Hackathon02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +529,7 @@
 				9234AC1B1D8C5AEE007482E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9234AC1C1D8C5AEE007482E4 /* Build configuration list for PBXNativeTarget "Hackathon02Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +538,7 @@
 				9234AC1E1D8C5AEE007482E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9234AC1F1D8C5AEE007482E4 /* Build configuration list for PBXNativeTarget "Hackathon02UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +547,7 @@
 				9234AC211D8C5AEE007482E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
